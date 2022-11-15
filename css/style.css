@@ -1,0 +1,95 @@
+.body{
+    display: flex;
+}
+.card{
+    padding: 2em;
+
+
+
+}
+
+.card-sedans{
+    background-color:var(--primary-orange) ;
+    border-radius:.3rem 0rem 0rem .3rem;
+    
+
+} 
+.card-suvs{
+    background-color: var(--primary-cyan);
+
+}
+.card-luxury{
+    background-color: var(--primary-dark);
+    border-radius:0rem .3rem .3rem 0rem;
+}
+.card-text{
+    line-height: 2;
+    color:var(--neutral-2);
+
+}
+.card-title{
+
+    color:var(--neutral-2);
+}
+
+
+.btn{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: var(--neutral-2);
+    border-radius: 1rem;
+    border:var(--neutral-1);
+
+    }
+
+.btn:hover{
+    
+    /* transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition: all .5s ease-in; */
+    background-color: transparent;
+    color:var(--neutral-2);
+    outline-style: solid;
+    outline-color: var(--neutral-2);
+    outline-width: 1px;
+    transition: background-color .5s;
+
+
+
+
+}
+.btn-primario{
+
+ color:var(--primary-orange);
+}
+.btn-secundario{
+    color:var(--primary-cyan);
+}
+.btn-terciario{
+    color: var(--primary-dark);
+}
+/* diseño desktop */
+@media (min-width: 600px){
+    
+}
+
+.body{ 
+    display: flex;
+    min-height: 100vh;
+
+ }
+    .container{
+        /* display: flex; */
+        margin: auto;
+        padding: 8em;
+        background-color: red;
+    
+
+    }
+    .card-sedans{
+        border-radius: .3rem 0rem 0rem .3rem;
+    }
+    
